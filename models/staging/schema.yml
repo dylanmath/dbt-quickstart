@@ -6,4 +6,4 @@ models:
     config:
       materialized: view
       database: staging
-      schema: stg_jaffle_shop
+      schema: jaffle_shop
