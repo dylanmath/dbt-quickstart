@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: staging customers
+    config:
+      materialized: view
+      database: staging
+      schema: stg_jaffle_shop
